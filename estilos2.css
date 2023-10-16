@@ -1,0 +1,40 @@
+#encabezado{
+    color: #6441A5;
+    font-family: "fira";
+}
+
+.tarjeta{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: left;
+}
+
+.contenedor {
+    text-align: left; 
+    padding: 20px;
+}
+
+p {
+    margin-bottom: 0;
+    font-family: "Arial";
+
+}
+
+@font-face {
+    font-family: "fira";
+    src: url(fonts/FiraSans-Ultra.otf);
+}
+
+@font-face {
+    font-family: "francois";
+    src: url(fonrs/FrancoisOne.ttf);
+}
